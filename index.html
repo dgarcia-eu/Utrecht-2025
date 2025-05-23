@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Polarization and coordination:   between online discussions   and AI agents</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="David Garcia   Social Data Science Lab, University of Konstanz    Complexity Science Hub Vienna" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="libs/footer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Polarization and coordination: <br> between online discussions <br> and AI agents
+]
+.author[
+### David Garcia <br> <em>Social Data Science Lab, University of Konstanz <br><br> Complexity Science Hub Vienna</em>
+]
+.date[
+### slides at dgarcia.eu/Utrecht-2025
+]
+
+---
+
+
+
+
+
+
+
+
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt;David Garcia - From Digital Traces to AI Agents&lt;/span&gt;&lt;/div&gt;
+
+---
+
+background-image: url(figures/AboutUS.svg)
+background-size: 98%
+
+
+---
+
+background-image: url(figures/VennV3-pre.svg)
+background-size: 97%
+---
+background-image: url(figures/VennV3.svg)
+background-size: 97%
+
+
+---
+
+# Outline
+
+## 1. Unpacking Polarization in Online Discussions
+
+## 2. Measuring the Scale of Coordination in AI Agents
+
+---
+
+
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt;&lt;a href="https://academic.oup.com/pnasnexus/article/3/12/pgae276/7713083"&gt;Unpacking polarization: Antagonism and Alignment in Signed Networks of Online Interaction. E. Fraxanet, M. Pellert, S. Schweighofer, V. Gómez, D. Garcia. PNAS Nexus (2024) &lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+
+
+
+---
+
+## The Challenge of Mitigating Online Polarization
+
+![:scale 100%](figures/papersIntro.png)
+ &lt;font size="5"&gt;
+
+- Changes in feed algorithms have weak effects if applied only to part of the population
+- Alternative: recommend content with cross-partisan appeal
+  - It can be contentious but not necessarily across the polarization fault line
+  - What and when? Finding this content requires new models and methods
+  - We need methods to discover both fault lines and contentious topics as they are discussed
+
+[Influence of Facebook algorithms on political polarization tested. David Garcia. Nature (2023)](https://rdcu.be/djT2c)
+[Breaking the Social Media Prism: How to Make Our Platforms Less Polarizing. Chris Bail (2021)](https://press.princeton.edu/books/hardcover/9780691203423/breaking-the-social-media-prism)
+&lt;/font&gt;
+
+---
+# Unpacking (Affective) Polarization
+.center[![:scale 78%](figures/AntagonismAlignment.png)]
+---
+# Data on Signed Online Discussions
+.center[![:scale 85%](figures/SignedPlatforms.png)]
+Birdwatch (now Community Notes) and DerStandard comments (Austrian news)
+They contain political discussions with explicit signed, timestamped interactions
+---
+
+## From Interactions to Relations to Polarization
+
+![](figures/InterRel.png)
+
+---
+# Edge Frustration and Signed Alignment
+.center[![:scale 100%](figures/SAI.png)]
+ &lt;font size="5"&gt;
+[Balance and frustration in signed networks. S. Aref and M. Wilson. Complex Networks (2019)](https://doi.org/10.1093/comnet/cny015)
+ &lt;/font&gt;
+---
+
+# Alignment versus Antagonism
+
+.center[![:scale 68%](figures/diagram.svg)]
+
+---
+# The FAULTANA Pipeline
+
+.center[![:scale 88%](figures/diagram_pipeline.svg)]
+
+---
+.center[![:scale 82%](figures/BW.svg)]
+---
+
+## Temporal Evolution of Birdwatch
+
+.center[![:scale 72%](figures/BW1.svg)]
+---
+
+## Peaks and events in Birdwatch
+.center[![:scale 80%](figures/peaks.png)]
+
+---
+
+## Antagonism and Alignment in Der Standard
+
+.center[![:scale 100%](figures/DerStandard1.png)]
+
+---
+
+# Effects Over Time in Der Standard
+
+.center[![:scale 100%](figures/derst_elections.png)]
+
+---
+
+# Elections and Alignment in Der Standard
+
+.center[![:scale 100%](figures/derst_elections2.png)]
+
+---
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+# Measuring the Scale of Coordination in AI Agents
+
+
+---
+
+
+layout: true  
+&lt;div class="my-footer"&gt;&lt;span&gt;&lt;a href="https://arxiv.org/abs/2409.02822"&gt; AI agents can coordinate beyond human scale. G de Marzo, C. Castellano, D. Garcia. Arxiv (2025) &lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+
+
+---
+
+## Social Simulation with Generative Agents
+
+**Can generative agents simplify assumptions in ABMs of online interaction?**
+
+.pull-left[![:scale 100%](figures/Simulacra.png)
+&lt;div class="ref"&gt;&lt;span&gt;&lt;a href="https://arxiv.org/pdf/2304.03442"&gt; Generative Agents: Interactive Simulacra of Human Behavior. S. Park et al (2023)&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;]
+
+.pull-right[.center[![:scale 100%](figures/Bail.png)]
+&lt;div class="ref"&gt;&lt;span&gt;&lt;a href="https://arxiv.org/abs/2312.06619"&gt; Simulating Social Media Using Large Language Models to Evaluate Alternative News Feed Algorithms. P. Törnberg et al (2023) &lt;/a&gt;&lt;/span&gt;&lt;/div&gt;]
+
+---
+# The WHAT-IF HORIZON project
+
+.pull-left[![:scale 100%](figures/WHAT-IF.png)]
+
+.pull-right[
+
+WHat-if: Advanced Simulations for Testing the Effect of the Information Environment on the Functioning of Democracy
+
+Improving ABM with LLMs to study social media policies in silico
+
+**Just started in 2025: stay tuned!**
+]
+
+&lt;br&gt;
+.center[**To learn more: https://what-if-horizon.eu/**]
+---
+
+# Generative AI Agents in Society
+
+.center[![:scale 88%](figures/AIeverywhere.png)]
+- AI "chiefs of staff" promise to interact with each other in our behalf
+- Coordination and competition (reservations, negotiations, applications)
+- **Could norms emerge, for example rules to be more efficient?** 
+- **Could they have systemic risks, like flash crashes?**
+
+---
+
+# The Social LLM Hypothesis
+.pull-left[![:scale 100%](figures/DunbarQuestion.svg)]
+.pull-right[
+
+- Group formation and sustainability: size depends on cognitive ability
+- Memory of identity to predict behavior and cooperation
+- Language as a tool for humans to make larger groups:
+  - Dunbar's number (150-250)
+
+** Our questions:**
+- Typical cohesive group size of AI agents?
+- Does it scale with with cognitive/language abilities?
+]
+
+---
+
+# Coordination and Critical Group Size
+
+.center[![:scale 80%](figures/Fish.png)]
+
+Coordination: When the option does not matter, what matters is staying together
+
+---
+
+# Coordination Dynamics in LLM Agents
+.pull-left[.center[![:scale 75%](figures/OP.png)]]
+.pull-right[
+- Simulation of a tight group of N interacting agents
+- Agents start with a random opinion of two options
+- Each iteration, they see the opinions of all others (prompt)
+- They respond to the question of their opinion
+- Opinion labels need to be random and shuffled to avoid token biases
+- Consensus is achieved if all have the same opinion
+]
+
+---
+
+# Detailed Prompt for Simulation
+&gt; Below you can see the list of all your friends together
+with the opinion they support.  
+&lt;br&gt;
+You must reply with the opinion you want to support.
+The opinion must be reported between square brackets.  
+&lt;br&gt;
+X7v A  
+keY B  
+91c B  
+gew A  
+4lO B  
+...  
+Reply only with the opinion you want to support, between
+square brackets.
+
+---
+# Coordination and Group Size
+.center[![:scale 85%](figures/splitting.png)]
+- Simulating splitting by options (e.g. right/left) leads to stable groups
+- What is the maximum group size that allows AI agents to stay together?
+
+---
+
+# LLM-Dependent Consensus Formation
+.center[![:scale 60%](figures/Consensus.png)]
+Some LLMs can reach consensus for completely arbitrary decisions (50 agents)
+
+---
+
+# Understanding LLM Opinion Dynamics
+
+.center[![:scale 94%](figures/Sigma.png)]
+Agent opinion changes follow an S-function parametrized by a majority force `\(\beta\)`
+---
+
+# Majority Force and Group Size
+  .center[![:scale 87%](figures/Consensus2.png)]
+- Majority force decreases for larger group sizes: Three kinds of states
+
+---
+## Critical Group Size and Consensus Time `\(T_c\)`
+.pull-right[![:scale 100%](figures/CW.png)]
+
+- Analysis of critical group size `\(N_c\)`
+
+
+- `\(N&gt;N_c\)`: time to consensus `\(T_c\)` grows exponentially with `\(N\)`
+
+
+- Above critical size, consensus is unfeasible and happens only by chance
+
+
+- `\(T_c\)` can be calculated from `\(\beta\)` as in an Ising Model (i.e. time to magnetization as a function of inverse temperature)
+
+- `\(N_c\)` can be derived from  `\(\beta\)` as the point of phase transition of `\(T_c\)` ( `\(\beta_c=1\)` )
+
+
+---
+
+# Group Size and Language Understanding
+.pull-right[![:scale 95%](figures/Scaling.png)]
+
+- Analysis of majority force and exhaustive simulations to measure **critical consensus size**
+
+- Exponential function of MMLU benchmark: **language understanding**
+
+- Two different scalings?
+
+- GPT-4 and Claude 3.5 Sonnet reach consensus for `\(N=1000\)`
+  - LLM emergent consensus scale beyond humans
+
+
+---
+
+# Summary
+
+- Applying frustration to unpack polarization as alignment and antagonism
+- Adds resolution to polarization: temporal dynamics and topic differences
+
+
+- LLM consensus scale predicted by language understanding capabilities
+- LLMs can reach emergent consensus at scales beyond humans
+- **Opportunity: decision-making or coordination?**
+- **Risk: undesired synchronization like a flash crash?**
+
+[Unpacking polarization: Antagonism and Alignment in Signed Networks of Online Interaction. Emma Fraxanet, Max Pellert, Simon Schweighofer, Vicenç Gómez, David Garcia. PNAS Nexus (2024)](https://academic.oup.com/pnasnexus/article/3/12/pgae276/7713083)
+
+&lt;a href="https://arxiv.org/abs/2409.02822"&gt; AI agents can coordinate beyond human scale. G de Marzo, C. Castellano, D. Garcia. Arxiv (2025) &lt;/a&gt;
+.center[**More at: [www.dgarcia.eu](https://dgarcia.eu)** and **[Bluesky: @dgarcia.eu](https://bsky.app/profile/dgarcia.bsky.social)**]
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="libs/perc.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
